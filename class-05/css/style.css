@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	padding: 21px 0px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 64px;
+	margin-left: 18px;
+}
+
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #5c5c5c;
+}
+
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.banner-content h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 54px;
+	color: #0f2656; 
+}
+
+.banner-content h1 span{
+	color: #0088ff;
+}
+
+.banner-content p1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #5c5c5c;
+	margin: 24px 0px;
+
+}
+
+.about{
+	width: 100%;
+	padding: 40px 0px;
+}
+
+.about-content{
+	display: flex;
+}
+
+.a-left, .a-right{
+	flex-basis: 50%;
+
+}
+
+.a-left{
+	text-align: right;
+	margin-right: 20px;
+}
+
+.a-left h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	color: #f15767;
+	margin-bottom: 10px;
+
+}
+
+
+.a-left p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #5c5c5c;
+}
+
+.a-right{
+	margin-left: 20px;
+}
+
+.a-right h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	color: #0f2656;
+}
+
+.service{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.service-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.pink{
+	background-color:#fdebeb; 
+}
+
+.green{
+	background-color:#ebf9f4; 
+}
+
+.yellow{
+	background-color:#fff7e8; 
+}
+.item{
+	margin: 16px;
+	border-radius: 4px;
+}
+
+.item div{
+   padding: 32px 16px;
+}
+
+.item img{
+	margin-bottom: 16px;
+}
+
+.item h3{
+ font-family: 'Open Sans', sans-serif;
+ font-size: 24px;
+ color: #0f2656;
+ margin-bottom: 14px;
+
+}
+
+.item p{
+ font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+ color: #5c5c5c;
+ line-height: 1.7;
+}
+
+footer{
+	width: 100%;
+	background-color: #008aff;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+footer p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+}
